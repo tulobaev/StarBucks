@@ -58,6 +58,7 @@
   .main-text h1,
   .main-text h1 span {
     font-size: clamp(2.188rem, 0.521rem + 8.33vw, 3.125rem);
+    padding-bottom: 20px;
   }
   .main-text p {
     padding-block: 5px;

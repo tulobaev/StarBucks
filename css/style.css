@@ -64,7 +64,7 @@ button:hover {
   width: 60%;
 }
 .header h3 {
-  font-size: 37px;
+  font-size: clamp(1.688rem, 1.557rem + 0.65vw, 2.313rem);
   background: linear-gradient(263.46deg, #237249 3.14%, #35c66b 87.2%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
