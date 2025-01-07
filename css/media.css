@@ -1,6 +1,7 @@
 @media (max-width: 1100px) {
   .main-text,
-  .main-image img {
+  .main-image img,
+  .make-image img {
     max-width: 500px;
   }
 }
@@ -16,8 +17,17 @@
   .boxWehave {
     max-width: 200px;
   }
+  .make-content {
+    gap: 20px;
+  }
+  .bac-img {
+    height: 180px;
+  }
 }
 @media (max-width: 750px) {
+  .make-image img {
+    max-width: 350px;
+  }
   .main-image img {
     max-width: 300px;
   }
@@ -49,7 +59,8 @@
     max-width: 500px;
   }
   .main-text h1,
-  .main-text h1 span {
+  .main-text h1 span,
+  .make-content h1 span {
     font-size: 50px;
   }
   .btn-box button {
@@ -63,7 +74,7 @@
   }
   .background-container {
     height: max-content;
-    width: 250px;
+    width: 280px;
     flex-direction: column;
     gap: 30px;
     padding-bottom: 19px;
@@ -72,17 +83,26 @@
   .boxWehave {
     max-width: 200px;
   }
-  #section {
+  #section,
+  #artcile {
     padding-block: 10px;
   }
+  .article {
+    flex-direction: column;
+  }
+  .make-content {
+    max-width: 320px;
+    gap: 30px;
+  }
 }
-
 @media (max-width: 500px) {
   #header {
     padding-block: 20px;
   }
   .main-text h1,
-  .main-text h1 span {
+  .main-text h1 span,
+  .make-content h1,
+  .make-content h1 span {
     font-size: clamp(2.188rem, 0.521rem + 8.33vw, 3.125rem);
   }
   .main-text p {

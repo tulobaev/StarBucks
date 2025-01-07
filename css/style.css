@@ -39,6 +39,9 @@ button {
   transition: all 0.3s ease;
   background: linear-gradient(265.23deg, #237249 6.79%, #35c66b 97.2%);
   color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 button:hover {
   transition: 0.2s;
@@ -129,10 +132,11 @@ button:hover {
 }
 .main-image img {
   width: auto;
-  transition: 1s ease-in-out;
+  transition: transform 0.4s ease, opacity 0.4s ease; /* Плавная анимация для нескольких свойств */
 }
 .main-image img:hover {
-  transform: translateY(-20px);
+  transform: translateY(-10px) scale(1.1); /* Поднимаем и немного увеличиваем изображение */
+  opacity: 0.9; /* Лёгкое изменение прозрачности */
 }
 .btn-box {
   display: flex;
@@ -174,11 +178,54 @@ button:hover {
   flex-direction: column;
   gap: 15px;
 }
+.boxWehave img {
+  transition: transform 0.4s ease, opacity 0.4s ease; /* Плавная анимация для нескольких свойств */
+}
+.boxWehave img:hover {
+  transform: translateY(-10px) scale(1.1); /* Поднимаем и немного увеличиваем изображение */
+  opacity: 0.9; /* Лёгкое изменение прозрачности */
+}
 .boxWehave h2 {
   color: rgba(18, 21, 23, 1);
 }
 .boxWehave p {
   color: rgba(18, 21, 23, 0.9);
 }
-
 /*! Section end  */
+
+/*! Article start  */
+#article {
+  padding-block: 30px;
+}
+.article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.make-image {
+  max-width: 540px;
+}
+
+.make-content {
+  max-width: 460px;
+  display: flex;
+  gap: 60px;
+  flex-direction: column;
+}
+.make-content h1 span {
+  font-size: clamp(1.25rem, 0.57rem + 3.4vw, 4.5rem);
+  background: linear-gradient(265.23deg, #237249 6.79%, #35c66b 97.2%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bac-img {
+  background-image: url("https://s3-alpha-sig.figma.com/img/7d4c/7ffd/754ba2c5eefa43da3891d41020fc93dd?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XbHwj3UbGfHAy7Q~0vUTIndORf6mJTGhvDC-xyKhu9pXz5W76qaUoUtOHxOubGVLqPwRuHws4efSUr5gZc4AnEdXwnK42grN~hxNidBYL2ZkEW1fb0OdKzx2KBRz6UzNDPGzxRTtoRDibe14YfemabAJUMNuIibVKEaYmFtQZy~rBS4XFUoU1z2WVftq2bRsJ94yFVXy6C42KFYKOiu6J6aPLuId~wYg9LkH8-w80cjJ070eTdu~q~jrrXXCsYBgSULqnXSF1BM0tavFSe9~-Y7h2gQJBl3A3i80JX5SBRqD7LpznUXAd4REMTecXxN2krz6TK9mqbrQ~IGDxilcTQ__");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*! Article end  */
