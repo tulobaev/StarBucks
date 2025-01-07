@@ -56,8 +56,11 @@
   .main-text h1 span {
     font-size: clamp(2.188rem, 0.521rem + 8.33vw, 3.125rem);
   }
-  .main-text p,
-  .user-info {
-    padding-block: 35px;
+  .main-text p {
+    padding-block: 15px;
+  }
+  .user-info,
+  .btn-box {
+    padding-block: 25px;
   }
 }
