@@ -46,6 +46,9 @@
   .btn-box button {
     padding: 15px 30px;
   }
+  .btn-box {
+    gap: 20px;
+  }
   .user-info p {
     line-height: 20px;
   }
@@ -59,9 +62,6 @@
   .main-text h1 span {
     font-size: clamp(2.188rem, 0.521rem + 8.33vw, 3.125rem);
   }
-  .btn-box button {
-    padding: 14px 25px;
-  }
   .main-text p {
     padding-top: 13px;
     padding-bottom: 16px;
@@ -69,5 +69,8 @@
   .user-info,
   .btn-box {
     padding-block: 20px;
+  }
+  .btn-box {
+    gap: 10px;
   }
 }
