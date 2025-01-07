@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background-color: rgb(18, 21, 23);
+  font-family: Montserrat, sans-serif;
+}
+p {
+  color: rgba(217, 217, 217, 1);
+  line-height: 32.69px;
+  font-weight: 400;
+  font-size: clamp(1rem, 0.948rem + 0.26vw, 1.25rem);
+}
+h1 {
+  font-size: clamp(1.25rem, 0.466rem + 3.92vw, 5rem);
+  color: rgba(255, 255, 255, 1);
+}
+h2 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  font-size: clamp(1.125rem, 0.942rem + 0.92vw, 2rem);
+}
+h4 {
+  font-size: clamp(1.25rem, 0.701rem + 2.75vw, 3.875rem);
+  color: #fff;
+  font-weight: 400;
+}
+button {
+  cursor: pointer;
+  font-size: clamp(0.875rem, 0.744rem + 0.65vw, 1.5rem);
+  border-radius: 80px;
+  padding: 15px 30px;
+  font-weight: 400;
+  transition: all 0.3s ease;
+  background: linear-gradient(265.23deg, #237249 6.79%, #35c66b 97.2%);
+  color: #fff;
+}
+button:hover {
+  transition: 0.2s;
+  background: none;
+  border: 1px solid #fff;
+}
+.container {
+  width: 100%;
+  max-width: 1850px;
+  margin-inline: auto;
+  padding-inline: 40px;
+  @media (max-width: 530px) {
+    padding-inline: 20px;
+  }
+}
+#header {
+  padding-block: 40px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
+.header h3 {
+  font-size: 37px;
+  background: linear-gradient(263.46deg, #237249 3.14%, #35c66b 87.2%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+.header p {
+  transition: 1s ease-in;
+}
+.header p:hover {
+  transform: translateY(-10px);
+  color: rgb(39, 134, 81);
+  font-weight: 500;
+}
+.burger {
+  display: none;
+  color: white;
+  font-size: 30px;
+}
+/*! Header end*/
+/*! Main start */
+#main {
+  padding-block: 40px;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-text {
+  max-width: 574px;
+}
+.main-text h1 span {
+  font-size: clamp(1.25rem, 0.57rem + 3.4vw, 4.5rem);
+  background: linear-gradient(265.23deg, #237249 6.79%, #35c66b 97.2%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.main-text p {
+  padding-block: 50px;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  padding-block: 54px;
+}
+.user-info div {
+  display: flex;
+  flex-direction: column;
+}
+.user-info h4 span {
+  color: #237249;
+}
+.user-info p {
+  padding-block: 1px;
+  max-width: 122px;
+  color: rgba(217, 217, 217, 1);
+  font-weight: 400;
+}
+.main-image {
+  max-width: 574px;
+}
+.main-image img {
+  width: auto;
+}
+/*! Main end */
