@@ -9,6 +9,13 @@
   .main-image img {
     max-width: 400px;
   }
+  .background-container {
+    padding-inline: 20px;
+    padding-block: 21px;
+  }
+  .boxWehave {
+    max-width: 200px;
+  }
 }
 @media (max-width: 750px) {
   .main-image img {
@@ -22,10 +29,12 @@
   }
   .header {
     width: 100%;
-    justify-content: space-between;
   }
   .header a {
     display: none;
+  }
+  .boxWehave {
+    max-width: 160px;
   }
 }
 @media (max-width: 630px) {
@@ -44,13 +53,27 @@
     font-size: 50px;
   }
   .btn-box button {
-    padding: 12px 30px;
+    padding: 13px 30px;
   }
   .btn-box {
     gap: 20px;
   }
   .user-info p {
     line-height: 20px;
+  }
+  .background-container {
+    height: max-content;
+    width: 320px;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 19px;
+    padding-inline: 40px;
+  }
+  .boxWehave {
+    width: 100%;
+  }
+  #section {
+    padding-block: 10px;
   }
 }
 
