@@ -63,14 +63,14 @@
   }
   .background-container {
     height: max-content;
-    width: 320px;
+    width: 300px;
     flex-direction: column;
     gap: 30px;
     padding-bottom: 19px;
-    padding-inline: 40px;
+    padding-inline: 20px;
   }
   .boxWehave {
-    width: 100%;
+    max-width: 220px;
   }
   #section {
     padding-block: 10px;
