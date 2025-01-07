@@ -60,7 +60,7 @@
     font-size: clamp(2.188rem, 0.521rem + 8.33vw, 3.125rem);
   }
   .btn-box button {
-    padding: 10px 20px;
+    padding: 14px 25px;
   }
   .main-text p {
     padding-top: 13px;
