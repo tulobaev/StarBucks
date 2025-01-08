@@ -4,13 +4,17 @@
   .make-image img {
     max-width: 500px;
   }
+  .product-title {
+    gap: 30px;
+  }
 }
 @media (max-width: 900px) {
   .main-text,
   .main-image img {
     max-width: 400px;
   }
-  .background-container {
+  .background-container,
+  #aside {
     padding-inline: 20px;
     padding-block: 21px;
   }
@@ -22,6 +26,9 @@
   }
   .bac-img {
     height: 180px;
+  }
+  .box-card {
+    gap: 40px;
   }
 }
 @media (max-width: 750px) {
@@ -46,6 +53,9 @@
   .boxWehave {
     max-width: 160px;
   }
+  .box-card {
+    gap: 10px;
+  }
 }
 @media (max-width: 630px) {
   .main {
@@ -60,7 +70,8 @@
   }
   .main-text h1,
   .main-text h1 span,
-  .make-content h1 span {
+  .make-content h1 span,
+  .title h1 span {
     font-size: 50px;
   }
   .btn-box button {
@@ -93,6 +104,14 @@
   .make-content {
     max-width: 320px;
     gap: 30px;
+  }
+  .box-card {
+    flex-direction: column;
+    justify-content: center;
+    padding-block: 20px;
+  }
+  .product-title {
+    flex-direction: column;
   }
 }
 @media (max-width: 500px) {

@@ -179,11 +179,11 @@ button:hover {
   gap: 15px;
 }
 .boxWehave img {
-  transition: transform 0.4s ease, opacity 0.4s ease; /* Плавная анимация для нескольких свойств */
+  transition: transform 0.4s ease, opacity 0.4s ease;
 }
 .boxWehave img:hover {
-  transform: translateY(-10px) scale(1.1); /* Поднимаем и немного увеличиваем изображение */
-  opacity: 0.9; /* Лёгкое изменение прозрачности */
+  transform: translateY(-10px) scale(1.1);
+  opacity: 0.9;
 }
 .boxWehave h2 {
   color: rgba(18, 21, 23, 1);
@@ -205,14 +205,14 @@ button:hover {
 .make-image {
   max-width: 540px;
 }
-
 .make-content {
   max-width: 460px;
   display: flex;
   gap: 60px;
   flex-direction: column;
 }
-.make-content h1 span {
+.make-content h1 span,
+.product-title h1 span {
   font-size: clamp(1.25rem, 0.57rem + 3.4vw, 4.5rem);
   background: linear-gradient(265.23deg, #237249 6.79%, #35c66b 97.2%);
   -webkit-background-clip: text;
@@ -229,3 +229,68 @@ button:hover {
   justify-content: center;
 }
 /*! Article end  */
+
+/*! Aside start  */
+#aside {
+  padding-block: 50px;
+  padding-inline: 70px;
+}
+.title {
+  max-width: 390px;
+  line-height: 87px;
+}
+.description {
+  max-width: 444px;
+  line-height: 32px;
+}
+.product-title {
+  display: flex;
+  align-items: center;
+  gap: 73px;
+}
+.box-card {
+  display: flex;
+  align-items: center;
+  gap: 104px;
+  padding-block: 60px;
+}
+.card {
+  max-width: 300px;
+  width: 100%;
+  border: 1.35px solid #dadada;
+  height: max-content;
+  border-image-slice: 1;
+  border-radius: 30px;
+  padding-block: 50px;
+  padding-inline: 30px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+.bac-card-cofee {
+  width: 186px;
+  height: 186px;
+  border-radius: 50%;
+  background: linear-gradient(267.2deg, #237249 3.05%, #35c66b 75.72%);
+  box-shadow: 0px 5.03px 51.53px 0px rgba(0, 0, 0, 0.39);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block: 10px;
+}
+.card p {
+  max-width: 216px;
+}
+.card h2 {
+  padding-block: 10px;
+}
+.price {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+/*! Aside end  */
