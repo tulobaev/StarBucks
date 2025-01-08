@@ -108,7 +108,8 @@
   .box-card {
     flex-direction: column;
     justify-content: center;
-    padding-block: 20px;
+    padding-block: 50px;
+    gap: 30px;
   }
   .product-title {
     flex-direction: column;
@@ -121,8 +122,13 @@
   .main-text h1,
   .main-text h1 span,
   .make-content h1,
-  .make-content h1 span {
+  .make-content h1 span,
+  .title h1,
+  .title h1 span {
     font-size: clamp(2.188rem, 0.521rem + 8.33vw, 3.125rem);
+  }
+  .title {
+    line-height: 55px;
   }
   .main-text p {
     padding-top: 13px;
