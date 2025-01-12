@@ -444,10 +444,6 @@ button:hover {
   color: rgba(187, 179, 179, 1);
   font-weight: 400;
 }
-.container-menu-box {
-  display: flex;
-  gap: 150px;
-}
 .row-icons {
   width: 84px;
   height: 84px;

@@ -61,11 +61,15 @@
   }
 }
 @media (max-width: 630px) {
-  .main,
-  .contacts {
+  .main {
     flex-direction: column-reverse;
     align-items: flex-start;
     gap: 50px;
+  }
+  .contacts {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 10px;
   }
   .main-image img {
     width: 90%;
@@ -84,7 +88,8 @@
   .btn-box button {
     padding: 13px 30px;
   }
-  .btn-box {
+  .btn-box,
+  .contacts-text {
     gap: 20px;
   }
   .user-info p {
@@ -139,6 +144,10 @@
   .instagram,
   .choose {
     height: 200px;
+  }
+  .coffee,
+  .kitchen {
+    max-width: 480px;
   }
   .event_text {
     gap: 20px;
