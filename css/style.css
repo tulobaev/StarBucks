@@ -104,7 +104,7 @@ button:hover {
   max-width: 574px;
 }
 .main-text h1 span {
-  font-size: clamp(1.25rem, 0.57rem + 3.4vw, 4.5rem);
+  font-size: clamp(3.125rem, 2.733rem + 1.96vw, 5rem);
   background: linear-gradient(265.23deg, #237249 6.79%, #35c66b 97.2%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -219,7 +219,7 @@ button:hover {
 .product-title h1 span,
 .event_text h1 span,
 .contacts-text h1 span {
-  font-size: clamp(1.25rem, 0.57rem + 3.4vw, 4.5rem);
+  font-size: clamp(3.125rem, 2.733rem + 1.96vw, 5rem);
   background: linear-gradient(265.23deg, #237249 6.79%, #35c66b 97.2%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -257,8 +257,9 @@ button:hover {
 .box-card {
   display: flex;
   align-items: center;
-  gap: 104px;
+  justify-content: space-between;
   padding-block: 60px;
+  gap: 20px;
 }
 .card {
   max-width: 300px;
