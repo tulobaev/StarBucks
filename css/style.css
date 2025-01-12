@@ -5,11 +5,13 @@
   border: none;
   list-style: none;
   text-decoration: none;
+  color: #fff;
 }
 body {
   background-color: rgb(18, 21, 23);
   font-family: Montserrat, sans-serif;
 }
+
 p {
   color: rgba(217, 217, 217, 1);
   line-height: 32.69px;
@@ -20,6 +22,7 @@ h1 {
   font-size: clamp(3rem, 2.582rem + 2.09vw, 5rem);
   color: rgba(255, 255, 255, 1);
 }
+
 h2 {
   color: rgba(255, 255, 255, 1);
   font-weight: 500;
@@ -66,7 +69,8 @@ button:hover {
   justify-content: space-between;
   width: 60%;
 }
-.header h3 {
+.header h3,
+.footer-menu h3 {
   font-size: clamp(1.375rem, 1.179rem + 0.98vw, 2.313rem);
   background: linear-gradient(263.46deg, #237249 3.14%, #35c66b 87.2%);
   -webkit-background-clip: text;
@@ -212,7 +216,9 @@ button:hover {
   flex-direction: column;
 }
 .make-content h1 span,
-.product-title h1 span {
+.product-title h1 span,
+.event_text h1 span,
+.contacts-text h1 span {
   font-size: clamp(1.25rem, 0.57rem + 3.4vw, 4.5rem);
   background: linear-gradient(265.23deg, #237249 6.79%, #35c66b 97.2%);
   -webkit-background-clip: text;
@@ -292,5 +298,178 @@ button:hover {
   align-items: center;
   gap: 25px;
 }
-
 /*! Aside end  */
+
+#event {
+  padding-block: 50px;
+}
+.event_text {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 72px;
+}
+.event_text p {
+  max-width: 457px;
+}
+.event_text h1 {
+  max-width: 370px;
+}
+.event-content {
+  padding-block: 50px;
+}
+.coffee {
+  background: url(/image/alex-haney-CAhjZmVk5H4-unsplash\ 1.png);
+  background-size: cover;
+  background-position: center;
+  max-width: 614px;
+  width: 100%;
+  height: 250px;
+  border-radius: 30px;
+  padding-block: 44px;
+  padding-inline: 26px;
+}
+.coffee-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.coffee-text h2 {
+  max-width: 230px;
+}
+.kitchen {
+  background: url(/image/Rectangle\ 9.png);
+  background-size: cover;
+  background-position: center;
+  max-width: 614px;
+  width: 100%;
+  height: 250px;
+  border-radius: 30px;
+  padding-block: 44px;
+  padding-inline: 26px;
+}
+
+.coffee-free {
+  background: url(/image/Rectangle\ 10.svg);
+  background-size: cover;
+  background-position: center;
+  max-width: 401px;
+  width: 100%;
+  height: 250px;
+  border-radius: 30px;
+  padding-block: 44px;
+  padding-inline: 26px;
+}
+
+.instagram {
+  background: url(/image/Rectangle\ 11.svg);
+  background-size: cover;
+  background-position: center;
+  max-width: 401px;
+  height: 250px;
+  width: 100%;
+
+  border-radius: 30px;
+  padding-block: 44px;
+  padding-inline: 26px;
+}
+.choose {
+  background: url(/image/Rectangle\ 12.svg);
+  background-size: cover;
+  background-position: center;
+  max-width: 401px;
+  width: 100%;
+  height: 250px;
+  border-radius: 30px;
+  padding-block: 44px;
+  padding-inline: 26px;
+}
+.coffee-box,
+.inst-box {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 20px;
+  gap: 30px;
+}
+/*! contacts start*/
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contacts-text {
+  max-width: 391px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.contactus {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.inst-name,
+.call-number {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.logo-inst {
+  font-size: 50px;
+  color: rgb(39, 130, 80);
+}
+.contact-image {
+  max-width: 477px;
+}
+.contact-image img {
+  width: 100%;
+}
+/*! contacts end*/
+
+/*! footer start*/
+#footer {
+  margin-top: 100px;
+  background-color: rgba(11, 12, 13, 1);
+}
+.footer {
+  padding-block: 50px;
+}
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-box-footer p {
+  color: rgba(187, 179, 179, 0.43);
+}
+.menu-box-footer p:first-child {
+  color: rgba(187, 179, 179, 1);
+  font-weight: 400;
+}
+.container-menu-box {
+  display: flex;
+  gap: 150px;
+}
+.row-icons {
+  width: 84px;
+  height: 84px;
+  border: 1px solid #35c66b;
+  border-radius: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.footer-number {
+  margin-top: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-number h3 {
+  font-size: clamp(1.125rem, 0.943rem + 0.91vw, 1.625rem);
+  background: linear-gradient(263.46deg, #237249 3.14%, #35c66b 87.2%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+/*! footer end*/

@@ -56,10 +56,16 @@
   .box-card {
     gap: 10px;
   }
+  #event {
+    padding-block: 20px;
+  }
 }
 @media (max-width: 630px) {
-  .main {
+  .main,
+  .event_text,
+  .contacts {
     flex-direction: column-reverse;
+    align-items: flex-start;
     gap: 50px;
   }
   .main-image img {
@@ -111,8 +117,20 @@
     padding-block: 50px;
     gap: 30px;
   }
-  .product-title {
+  .product-title,
+  .coffee-box,
+  .inst-box {
     flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer {
+    flex-wrap: wrap;
+  }
+  .container-menu-box {
+    margin-top: 100px;
+    flex-flow: row;
+    flex-wrap: wrap;
+    gap: 20px;
   }
 }
 @media (max-width: 500px) {
