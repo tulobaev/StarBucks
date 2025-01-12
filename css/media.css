@@ -15,7 +15,6 @@
   }
   .background-container,
   #aside {
-    padding-inline: 20px;
     padding-block: 21px;
   }
   .boxWehave {
@@ -152,6 +151,10 @@
   }
   .coffee-text {
     gap: 10px;
+  }
+  .event-content {
+    margin-top: 50px;
+    padding-block: 10px;
   }
 }
 @media (max-width: 500px) {
