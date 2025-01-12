@@ -414,7 +414,7 @@ button:hover {
   gap: 13px;
 }
 .logo-inst {
-  font-size: 50px;
+  font-size: clamp(2.188rem, 1.847rem + 1.7vw, 3.125rem);
   color: rgb(39, 130, 80);
 }
 .contact-image {
