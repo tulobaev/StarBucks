@@ -112,6 +112,7 @@
   }
   .article {
     flex-direction: column;
+    align-items: flex-start;
   }
   .make-content {
     max-width: 320px;
@@ -143,7 +144,7 @@
   .coffee-free,
   .instagram,
   .choose {
-    height: 200px;
+    height: 190px;
   }
   .coffee,
   .kitchen {
@@ -156,6 +157,9 @@
   }
   #footer {
     margin-top: 50px;
+  }
+  .coffee-text {
+    gap: 10px;
   }
 }
 @media (max-width: 500px) {
@@ -172,8 +176,5 @@
   .user-info,
   .btn-box {
     padding-block: 20px;
-  }
-  .btn-box {
-    gap: 10px;
   }
 }

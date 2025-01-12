@@ -328,6 +328,8 @@ button:hover {
   border-radius: 30px;
   padding-block: 44px;
   padding-inline: 26px;
+  display: flex;
+  align-items: center;
 }
 .coffee-text {
   display: flex;
@@ -347,6 +349,8 @@ button:hover {
   border-radius: 30px;
   padding-block: 44px;
   padding-inline: 26px;
+  display: flex;
+  align-items: center;
 }
 
 .coffee-free {
@@ -359,6 +363,8 @@ button:hover {
   border-radius: 30px;
   padding-block: 44px;
   padding-inline: 26px;
+  display: flex;
+  align-items: center;
 }
 
 .instagram {
@@ -371,6 +377,8 @@ button:hover {
   border-radius: 30px;
   padding-block: 44px;
   padding-inline: 26px;
+  display: flex;
+  align-items: center;
 }
 .choose {
   background: url(/image/Rectangle\ 12.svg);
@@ -382,6 +390,8 @@ button:hover {
   border-radius: 30px;
   padding-block: 44px;
   padding-inline: 26px;
+  display: flex;
+  align-items: center;
 }
 .coffee-box,
 .inst-box {
