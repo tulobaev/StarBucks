@@ -275,6 +275,11 @@ button:hover {
   flex-direction: column;
   text-align: center;
   gap: 10px;
+  transition: transform 0.4s ease, opacity 0.4s ease; /* Плавная анимация для нескольких свойств */
+}
+.card:hover {
+  transform: translateY(-10px) scale(1.1); /* Поднимаем и немного увеличиваем изображение */
+  opacity: 0.8; /* Лёгкое изменение прозрачности */
 }
 .bac-card-cofee {
   width: 186px;
@@ -399,6 +404,21 @@ button:hover {
   justify-content: space-between;
   padding-block: 20px;
   gap: 30px;
+}
+.coffee:hover {
+  opacity: 0.7;
+}
+.kitchen:hover {
+  opacity: 0.7;
+}
+.coffee-free:hover {
+  opacity: 0.7;
+}
+.instagram:hover {
+  opacity: 0.7;
+}
+.choose:hover {
+  opacity: 0.7;
 }
 /*! contacts start*/
 .contacts {
